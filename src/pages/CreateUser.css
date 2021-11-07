@@ -1,0 +1,40 @@
+.create-form {
+  height: 18rem;
+  margin: 7rem 20rem;
+  color: #fff;
+  background-color: #060f1c;
+  border-radius: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.create-field {
+  font-size: 1.2rem;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.create-field input {
+  height: 2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.create-btn {
+  font-size: 1.1rem;
+  height: 2rem;
+  border-style: none;
+  background-color: #4f62c4;
+  font-weight: 700;
+}
+
+.create-btn:hover {
+  cursor: pointer;
+  color: #fff;
+  font-weight: 700;
+  background-color: navy;
+}
+

@@ -1,0 +1,17 @@
+.user-list {
+  /* margin: 5rem 10rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 3rem; */
+
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-right: auto;
+  margin-left: auto;
+
+  width: 50rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

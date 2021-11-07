@@ -1,0 +1,62 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.jumbotron {
+  background-color: #060f1c;
+  width: 100vw;
+  height: 20rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.jumbotron-title {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.jumbotron-subtext {
+  word-spacing: -0.1rem;
+  text-align: center;
+  color: gray;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.input {
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  height: 2rem;
+  width: 40rem;
+  text-align: center;
+  border-style: none;
+}
+
+.btn {
+  height: 2.14rem;
+  width: 5rem;
+  border-style: none;
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  background-color: #4f62c4;
+  font-weight: 700;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #fff;
+  font-weight: 700;
+  background-color: navy;
+}

@@ -1,0 +1,12 @@
+.about-us {
+  padding: 4rem 7rem;
+  margin: 7rem 20rem;
+  color: #fff;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #060f1c;
+  border-radius: 1rem;
+  box-sizing: border-box;
+}

@@ -1,0 +1,79 @@
+.card {
+  height: 15rem;
+  width: 15rem;
+  box-shadow: 1px 4px 34px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 4px 34px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 4px 34px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  transition: all 0.2s;
+  background-color: #97c6e8;
+  margin: 1rem;
+}
+
+.user-name {
+  box-sizing: border-box;
+  font-size: 1.3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #172936;
+}
+
+.card:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.avatar {
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.details img {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.btn-wrapper {
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  width: 3.5rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+  color: red;
+  background-color: #fff;
+  border: 1px solid red;
+}
+
+.delete-btn:hover {
+  color: #fff;
+  font-weight: 700;
+  background-color: red;
+  cursor: pointer;
+}
+
+.view-btn {
+  width: 3.7rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+  color: dodgerblue;
+  background-color: #fff;
+  border: 1px solid dodgerblue;
+}
+
+.view-btn:hover {
+  color: #fff;
+  font-weight: 700;
+  background-color: dodgerblue;
+  cursor: pointer;
+}
