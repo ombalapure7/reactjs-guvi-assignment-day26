@@ -48,10 +48,9 @@
   height: 2.14rem;
   width: 5rem;
   border-style: none;
-  border-bottom-right-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
   background-color: #4f62c4;
   font-weight: 700;
+  font-size: 1.3rem;
 }
 
 .btn:hover {
@@ -59,4 +58,23 @@
   color: #fff;
   font-weight: 700;
   background-color: navy;
+}
+
+.btn-clear {
+  height: 2.14rem;
+  width: 5rem;
+  border-style: none;
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  background-color: orange;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #111;
+}
+
+.btn-clear:hover {
+  cursor: pointer;
+  color: #fff;
+  font-weight: 700;
+  background-color: darkorange;
 }
