@@ -1,1 +1,1 @@
-Netlify Link: https://infallible-carson-b2fc0b.netlify.app/
+Netlify Link: https://reactjs-curd-app-day26.netlify.app/
