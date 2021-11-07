@@ -136,6 +136,7 @@
   border-style: none;
   background-color: #4f62c4;
   font-weight: 700;
+  border-radius: 0.3rem;
 }
 
 .edit-form-edit-btn:hover {
@@ -151,6 +152,7 @@
   border-style: none;
   background-color: tomato;
   font-weight: 700;
+  border-radius: 0.3rem;
 }
 
 .edit-form-close-btn:hover {
